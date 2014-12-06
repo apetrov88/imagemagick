@@ -19,4 +19,6 @@
 include_recipe "imagemagick"
 include_recipe "imagemagick::devel"
 
-gem_package "rmagick"
+gem_package "rmagick" do
+  version: '2.13.3'
+end
